@@ -100,6 +100,8 @@ module OAI
           builder.adapter :net_http
         end
       end
+      @http_client.options.timeout = 600           # open/read timeout in seconds
+      @http_client.options.open_timeout = 600
 
       # load appropriate parser
       case @parser
