@@ -2,6 +2,7 @@
 /doc/
 /coverage*
 /.yardoc/
+.ruby-version
 
 # Exclude Gemfile.lock (best practice for gems)
 Gemfile.lock
